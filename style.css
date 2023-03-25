@@ -1,3 +1,8 @@
+body {
+    font-family: 'Poppins', sans-serif;
+
+}
+
 nav {
     display: flex;
 }
@@ -5,8 +10,30 @@ nav {
 nav a {
     text-decoration: none;
     color: black;
-    margin-left: 50px;
-    font-size: 30px;
+    margin-left: 30px;
+    font-size: 20px;
+}
+
+.upper-body {
+    display: flex;
+}
+
+.flex-set {
+    margin: 70px 25px 70px 30px;
+}
+
+.font-control {
+    font-weight: 700;
+    font-size: 50px;
+}
+
+.preebook {
+    background-color: rgb(208, 33, 68);
+    color: white;
+    width: 150px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    font-size: 18px;
 }
 
 .camera {
