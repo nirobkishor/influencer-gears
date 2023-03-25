@@ -19,7 +19,7 @@ nav a {
 }
 
 .flex-set {
-    margin: 70px 25px 70px 30px;
+    margin: 70px 80px 70px 30px;
 }
 
 .font-control {
@@ -41,4 +41,13 @@ nav a {
     background-repeat: no-repeat;
     margin-top: 50px;
     justify-content: center;
+    width: 100%;
+}
+
+.logos {
+    margin: 5px 150px 5px 150px;
+}
+
+.company-logo {
+    margin-left: 20px;
 }
