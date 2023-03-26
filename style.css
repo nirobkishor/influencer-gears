@@ -92,3 +92,36 @@ hr {
     color: red;
     font-size: 20px;
 }
+
+.another-flex-place {
+    display: flex;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.gear {
+    margin-left: 100px;
+}
+
+.another-button {
+    background-color: rgb(208, 33, 68);
+    color: white;
+    width: 150px;
+    padding: 8px 8px;
+    font-size: 18px;
+}
+
+.added {
+    background-color: black;
+}
+
+.color-set {
+    color: white;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+.color {
+    color: lightgray;
+}
