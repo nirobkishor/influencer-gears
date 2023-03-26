@@ -76,6 +76,12 @@ hr {
     margin-bottom: 80px;
 }
 
+.gallery {
+    box-shadow: 5px 5px 5px rgb(184, 161, 161);
+    margin: 50px;
+    padding: 10px;
+}
+
 .fa-star.fa-star-half-stroke {
     font-size: 12px;
 }
@@ -91,6 +97,7 @@ hr {
 .down-span {
     color: red;
     font-size: 20px;
+    justify-content: flex-end;
 }
 
 .another-flex-place {
@@ -124,4 +131,30 @@ hr {
 
 .color {
     color: lightgray;
+}
+
+@media only screen and (max-width:688px) {
+
+    .logos,
+    .flex-place {
+        width: 100%;
+    }
+
+    .gallery-collection,
+    .another-flex-place {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+@media only screen and (min-width:688px) and (max-width:992px) {
+
+    .logos,
+    .flex-place {
+        width: 100%;
+    }
+
+    .gallery-collection,
+    .another-flex-place {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
